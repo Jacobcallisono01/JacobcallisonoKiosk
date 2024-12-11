@@ -3,6 +3,7 @@ body{
     background: linear-gradient(blue, darkblue);
     font-family: sans-serif;
     color: lightgrey;
+    height: 100%;
 }
 button{
     background: linear-gradient(lightgrey,darkgrey);
@@ -13,6 +14,7 @@ body:window-inactive{
     background: linear-gradient(darkblue, black);
     font-family: sans-serif;
     color: white;
+    height: 100%;
 }
 button:hover{
     background: linear-gradient(white,grey);
@@ -20,7 +22,8 @@ button:hover{
 }
 .toolbar{
     background-color:skyblue;
-    height: 32;
+    width: 100%;
+    height: 32px;
     position: fixed;
     top:0;
 }
