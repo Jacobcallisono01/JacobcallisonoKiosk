@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    background: linear-gradient(blue, darkblue);
+    font-family: sans-serif;
+    color: lightgrey;
+}
+button{
+    background: linear-gradient(lightgrey,darkgrey);
+    cursor: pointer;
+}
+body:window-inactive{
+    margin: 0;
+    background: linear-gradient(darkblue, black);
+    font-family: sans-serif;
+    color: white;
+}
+button:hover{
+    background: linear-gradient(white,grey);
+    cursor: pointer;
+}
+.toolbar{
+    background-color:skyblue;
+    height: 32;
+    position: fixed;
+    top:0;
+}
