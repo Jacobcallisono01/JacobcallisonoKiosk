@@ -5,11 +5,10 @@
 body{
     background: #555;
     color: white;
+    margin: 0;
+    font-family: 'XGA';
+    font-size: 25;
 }
 h1{
     font-weight: 400;
-}
-a{
-    font-family: 'XGA';
-    font-size: 25;
 }
