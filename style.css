@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'XGA'; /*a name to be used later*/
+    src: url('fonts/XGA.woff'); /*URL to font*/
+}
 body{
     margin: 0;
     background: linear-gradient(blue, darkblue);
-    font-family: sans-serif;
+    font-family: 'XGA';
+    font-size: 20;
     color: lightgrey;
     height: 100%;
 }

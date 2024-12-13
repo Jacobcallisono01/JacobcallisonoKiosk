@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'XGA'; /*a name to be used later*/
+    src: url('XGA.woff'); /*URL to font*/
+}
+body{
+    background: #555;
+    color: white;
+}
+h1{
+    font-weight: 400;
+}
+a{
+    font-family: 'XGA';
+    font-size: 20;
+}
